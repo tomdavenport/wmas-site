@@ -8,7 +8,7 @@
 - title = "<?=@$title;?> - We Make Awesome Sh"
 - description = "<?=addslashes(@$description);?>"
 - share_image = "<?=@$image;?>"
-- ga_key = "UA-XXXXX-X"
+- ga_key = "UA-7654450-5"
 - url = "http://wmas.it"
 
 - project_image = "<?=$base_url;?>assets/img/jagskills.png"

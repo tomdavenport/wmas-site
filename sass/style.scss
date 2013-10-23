@@ -36,6 +36,9 @@ body {
   }
 }
 
+#home #content section {
+  max-width:100000000px;
+}
 
 
 @media(max-width:1020px) {
@@ -141,7 +144,7 @@ section {
   top:0;
   left:0;
 	padding:3 * $padding;
-  margin-left:$sidebar_width + $padding * 2;:
+  margin-left:$sidebar_width + $padding * 2;
   bottom:0;
   right:0;
   padding-bottom: $padding * 3.5;
@@ -151,12 +154,23 @@ section {
 
 }
 
-.loading {
-  section {
-    -webkit-transform:translateX(100%);
-    transform:translateX(100%);
+@media(min-width:651px) {
+  .loading {
+    section {
+      -webkit-transform:translateX(100%);
+      transform:translateX(100%);
+    }
   }
 }
+
+@media(max-width:650px) {
+  .loading {
+    section {
+      opacity:0;
+    }
+  }
+}
+
 
 #header {
 	position:fixed;
