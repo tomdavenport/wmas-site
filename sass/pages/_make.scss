@@ -6,7 +6,9 @@
 }
 
 
-
+#content section li.case-study {
+  margin-bottom:0;
+}
 
 li.case-study {
   display:block;
@@ -91,6 +93,14 @@ li.case-study {
     width:100%;
     &:nth-child(n+3) {
       width:50%;
+    }
+    h4 {
+      font-size:1.2em;
+      line-height:0.9em;
+    }
+    h5 {
+      line-height:1.1em;
+      font-size:0.7em;
     }
   }
 }

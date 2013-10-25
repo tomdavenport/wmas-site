@@ -150,11 +150,17 @@
 
 }
 
+
+
 html {
   @include colors( #fff, #1a1a1a, #555);
-    -webkit-filter:invert(0%);
-  -webkit-transition:500ms all;
+}
 
+@media(min-width:650px) {
+  html {
+    -webkit-filter:invert(0%);
+    -webkit-transition:500ms all;
+  }
 }
 
 html.invert {
