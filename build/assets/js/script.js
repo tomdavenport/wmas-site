@@ -151,7 +151,7 @@ $(document).ready(function() {
     e.preventDefault();
   })
 
-  var timer = 3000;
+  var timer = 10000;
   $('#main_nav li').each(function() {
     var li = $(this);
     setTimeout(function() {
