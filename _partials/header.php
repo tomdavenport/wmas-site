@@ -1,7 +1,4 @@
 <?php $base_url = "/"; ?>
-<?php //$base_url = "/new_site/";
-?>
-
 <?php require_once('includes/tools.php');?>
 !!! 5
 -# Variables for social metadata and analytics
@@ -11,10 +8,21 @@
 - ga_key = "UA-7654450-5"
 - url = "http://wmas.it"
 
-- project_image = "<?=$base_url;?>assets/img/jagskills.png"
-- project_title = "Jaguar Skills"
-- project_subtitle = "Browser Game"
-
+/
+  = "   "
+  = "   /\\___/\\   "
+  = "  ( o   o )   "
+  = "  (  =^=  )   "
+  = "  (        )   "
+  = "  (         )   "
+  = "  (          )))))))))))   "
+  = "     "
+  = "  e   e  e eeee    eeeeeee eeeee eeeee eeee    eeeee e   e e  eeeee   "
+  = "  8   8  8 8       8  8  8 8   8 8   8 8         8   8   8 8  8       "
+  = "  8e  8  8 8eee    8e 8  8 8eee8 8e  8 8eee      8e  8eee8 8e 8eeee   "
+  = "  88  8  8 88      88 8  8 88  8 88  8 88        88  88  8 88    88   "
+  = "  88ee8ee8 88ee    88 8  8 88  8 88ee8 88ee      88  88  8 88 8ee88   "
+  = "   "
 
 %html.no-js{ lang: "en" }
   %head
@@ -31,6 +39,16 @@
     %title= title
     %meta{ name: "description", content: description }
 
+    %meta{ name: "apple-mobile-web-app-capable", content: "yes" }
+    %meta{ name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" }
+
+
+
+    %link{ rel: "apple-touch-icon", href: "AppIcon60x60.png" }
+    %link{ rel: "apple-touch-icon", sizes:"76x76", href: "AppIcon76x76.png" }
+    %link{ rel: "apple-touch-icon", sizes:"120x120", href: "AppIcon60x60@2x.png" }
+    %link{ rel: "apple-touch-icon", sizes:"152x152", href: "AppIcon76x76@2x.png" }
+
     -# Mobile viewport optimized: h5bp.com/viewport
     %meta{ name: "viewport", content: "width=device-width" }
 
@@ -38,6 +56,8 @@
     %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Abel" }
 
     %link{ rel: "stylesheet", href: "<?=$base_url;?>assets/css/style.css" }
+
+
 
     %script{ src: "<?=$base_url;?>assets/js/libs/modernizr-2.5.3.min.js" }
     %script{ src: "<?=$base_url;?>assets/js/libs/jquery-1.7.1.min.js" }

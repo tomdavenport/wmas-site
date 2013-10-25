@@ -26,9 +26,11 @@ body {
   transition:500ms all cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-#content section {
-  max-width:1050px;
 
+#content section {
+  &> * {
+    max-width:1050px;
+  }
   p, li {
     font-size:1.2em;
     line-height:2em;
@@ -41,7 +43,7 @@ body {
 }
 
 
-@media(max-width:1020px) {
+@media(max-width:1025px) {
   p {
     font-size:1.2em;
   }
@@ -89,13 +91,18 @@ body {
   transition:500ms all cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+* {
+  -webkit-overflow-scrolling:touch
+}
+section, #footer {
+  -webkit-transition:300ms all;
+  transition:300ms all;
+}
 
-@media(min-width:650px) {
+@media(min-width:1025px) {
   section, #footer {
     -webkit-filter:blur(0px);
-    -webkit-transition:300ms all;
     filter:blur(0px);
-    transition:300ms all;
   }
 }
 
@@ -195,6 +202,13 @@ section {
 	}
 }
 
+@media only screen and (min-device-width: 1023px) and (max-device-width: 1025px) and (orientation: landscape) {
+  #category_browse a.block {
+    font-size:0.8em;
+    padding:5px 10px;
+  }
+}
+
 #main_nav {
 	font-size:4.7em;
 	position:absolute;
@@ -208,6 +222,15 @@ section {
 			text-decoration: none;
 		}
 	}
+}
+
+@media(max-width:1025px) {
+  h1 {
+    font-size:2em;
+  }
+  #content section p {
+    font-size:1em;
+  }
 }
 
 
@@ -416,3 +439,31 @@ section {
     }
   }
 }
+
+
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform:rotate(4deg);}
+  50% {-webkit-transform:rotate(-4deg);}
+  100% {-webkit-transform:rotate(4deg);}
+}
+ 
+/* firefox */
+@-moz-keyframes wiggle {
+  0% {-moz-transform:rotate(4deg);}
+  50% {-moz-transform:rotate(-4deg);}
+  100% {-moz-transform:rotate(4deg);}
+}
+ 
+/* anyone brave enough to implement the ideal method */
+@keyframes wiggle {
+  0% {transform:rotate(4deg);}
+  50% {transform:rotate(-4deg);}
+  100% {transform:rotate(4deg);}
+}
+ 
+#main_nav li.wiggle {
+  -webkit-animation: wiggle 0.1s 3;
+  -moz-animation: wiggle 0.1s 3;
+  animation: wiggle 0.1s 3;
+}
+

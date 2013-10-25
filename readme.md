@@ -25,6 +25,3 @@ Point MAMP (or similar) to ./build/index.php
 
 * browser testing
 * favicon
-* apple-touch-icons
-* google analytics
-* blog post queued

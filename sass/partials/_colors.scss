@@ -156,7 +156,7 @@ html {
   @include colors( #fff, #1a1a1a, #555);
 }
 
-@media(min-width:650px) {
+@media(min-width:1025px) {
   html {
     -webkit-filter:invert(0%);
     -webkit-transition:500ms all;

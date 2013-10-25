@@ -35,4 +35,8 @@ function get_project($slug) {
     $project->content = get_markdown("projects/".$slug);
   return $project;
 }
+
+if (!isset($image)) {
+  $image = "logo.png";
+}
 ?>

@@ -52,9 +52,17 @@ li.case-study {
   }
 }
 
-@media(max-width:990px) {
+@media(max-width:1200px) {
   .grid li.case-study {
     width:50%;
+
+    h4 {
+      font-size:1.2em;
+    }
+    h5 {
+      font-size:0.7em;
+      line-height:1em;
+    }
 
     &:nth-child(n+3) {
       width:33.333333333%;
@@ -77,15 +85,7 @@ li.case-study {
   }
 }
 
-@media(max-width:770px) {
-  .grid li.case-study {
-    width:100%;
 
-    &:nth-child(n+3) {
-      width:50%;
-    }
-  }
-}
 
 
 @media(max-width:650px) {

@@ -151,7 +151,14 @@ $(document).ready(function() {
     e.preventDefault();
   })
 
-
+  var timer = 3000;
+  $('#main_nav li').each(function() {
+    var li = $(this);
+    setTimeout(function() {
+      li.addClass("wiggle");
+    },timer);
+    timer += 500;
+  })
 
   pageReady($("body").attr("id"));
 

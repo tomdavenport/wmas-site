@@ -27,7 +27,7 @@
   "awesomewall": {
     "title": "AwesomeWall",
     "subtitle": "Social content aggregator",
-    "tags": "photo instagram mobile web app vine video",
+    "tags": "photo instagram mobile web app vine video awesomewall",
     "link": "http:\/\/awesomewall.wemakeawesomesh.it",
     "date": "01-07-2013",
     "image": "projects\/awesomewall.jpg"
@@ -290,7 +290,7 @@
     "date": "28 October 2012 12:00:00 +0100"
   },
   "maclight": {
-    "tags": "ios Arduino javascript tv lights hardware",
+    "tags": "ios arduino javascript tv lights hardware",
     "link": "http:\/\/youtu.be\/y3ofEijAg58?t=1m5s",
     "title": "Maclight",
     "image": "projects\/maclight.jpg",
