@@ -15,6 +15,7 @@
 $padding: 24px;
 $sidebar_width: 200px;
 
+
 body, html {
 	height:100%;
 	padding:0;
@@ -101,17 +102,15 @@ section, #footer {
 
 @media(min-width:1025px) {
   section, #footer {
-    -webkit-filter:blur(0px);
-    filter:blur(0px);
+    filter:blur(0px) !important;
   }
 }
 
 
-@media(min-width:650px) {
+@media screen and (min-width:650px) {
   .browse-categories {
-    section {
-      -webkit-filter:blur(6px);
-      filter:blur(6px);
+    section, #footer {
+      filter:blur(6px) !important;
     }
   }
 }
@@ -135,7 +134,6 @@ section, #footer {
 @media(min-width:900px) {
   .browse-categories {
     #footer {
-      -webkit-filter:blur(6px);
       filter:blur(6px);
     }
   }
@@ -318,8 +316,7 @@ section {
   .img {
     background-size: cover;
     background-position: center center;
-    -webkit-transition:500ms -webkit-filter;
-    -webkit-filter: saturate(10%) brightness(30%);
+    -webkit-transition:500ms filter;
     transition:500ms filter;
     filter: saturate(10%) brightness(30%);
     position:absolute;
@@ -331,7 +328,6 @@ section {
   &:hover {
 //  	border:1px solid #fff;
     .img {
-      -webkit-filter: saturate(100%) brightness(100%);
       filter: saturate(100%) brightness(100%);
     }
   }

@@ -76,6 +76,11 @@
     %meta{ name: "twitter:site", content: "wemakeawesomesh" }
     %meta{ name: "twitter:creator", content: "wemakeawesomesh" }
 
+    :javascript
+      var polyfilter_scriptpath = '<?=$base_url;?>assets/';  
+    
+    %script{ src: "<?=$base_url;?>assets/css-filters-polyfill.js" }
+    %script{ src: "<?=$base_url;?>assets/cssParser.js" }
 
 
   %body#<?= $id; ?>

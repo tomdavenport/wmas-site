@@ -162,4 +162,19 @@ $(document).ready(function() {
 
   pageReady($("body").attr("id"));
 
+  $('#showreel').click(function() {
+
+    var iframe = $('<iframe id="showreel_frame" src="//player.vimeo.com/video/77580615?&autoplay=true"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+    $(this).after(iframe);
+    setTimeout(function() {
+      iframe.addClass("active");
+      setTimeout(function() {
+        var width = $(window).width()-276;
+        var height = $(window).height()-78;
+        iframe.css("width",width).css("height",height);
+      })
+    },1);
+
+  });
+
 })

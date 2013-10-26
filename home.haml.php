@@ -24,6 +24,7 @@ require_once("_partials/header.php");
         %a.info{ href: "" }
           %h2.title
           .subtitle
+        #showreel
 
 
 <?php require_once("_partials/footer.php"); ?>
