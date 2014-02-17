@@ -85,12 +85,36 @@ window.history.replaceState({previous:undefined, current:window.location.pathnam
 
 
 
-show_404_page = function() {
+var show_404_page = function() {
+  $(function() {
+    $vid = $('#vid404');
+    var dw = 1280/720;
+    var w = 0;
+    var h = 0;
+    if ($(window).width()/$(window).height() < dw) {
+      w = $(window).height()*dw;
+      h = $(window).height();
+    } else {
+      w = $(window).width();
+      h = $(window).width()/dw;
+    }
 
-  var BV = new $.BigVideo();
-  BV.init();
-  BV.show('http://wmasmain.s3.amazonaws.com/404.mp4');
-}
+    $vid.css({
+      position:"fixed",
+      top:0,
+      width:w,
+      height:h,
+      left:0
+    });
+    $vid[0].play();
+    $('#image_404').css({opacity:0});
+    setTimeout(function(){
+      $('#image_404').css({display:"block"}).animate({opacity:1});
+    },10000);
+  });
+
+
+};
 
 fetchPage = function(url, fromPop) {
    url = url.replace("/new_site","");
