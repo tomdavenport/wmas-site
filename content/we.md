@@ -1,21 +1,27 @@
 ## Cardiff &bull; Halo &bull; Cats
 
-Yep, it's not often that you see those three words next to each other. Even rarer when it's on an agency website. But then we're not about the ordinary. In fact, we're not really an agency. We're a collective. We're about the awesome. And Cardiff, Halo and Cats are all, we hope you'll agree, pretty bloody awesome.
+You don't often see those three words next to each other. Especially on an agency website. But then, we're not about the ordinary. Hell, we're not even an agency. We're a collective. We're about the awesome. And [Cardiff, Halo and Cats are all pretty awesome](http://cl.ly/image/143f2U1S3E22 "Cardiff Halo Cats").
 
-We Make Awesome Sh was founded by Tom Gibby and Syd Lawrence. Tom and Syd met at Cardiff university through a shared love of all things gaming, geek and tech. We joked about one day starting our own company, little did we know that one final unexpected element would spark this opportunity – cats.
+<!-- Have added H3 tags to break up the text, but commented out in case they aren't styled on the site. -->
 
-In early 2011, a few hours after the Instagram API was released, we built Instac.at, a comical site that quite literally displayed a live feed of cat images being uploaded to Instagram. After just 24 hours over 30,000 people had visited the site and a couple of weeks later that number had rocketed, fuelled by coverage from publications such as The Next Web and Mashable. The success of Instac.at lead to us creating Search Instagram – the best place to search for Instagram images online.
+<!--### How we started-->
 
-A few months later and we'd helped a number of brands integrate Instagram into their marketing and social media strategies, as well as increasing our offering to pretty much any piece of digital technology or social media application you can think of. More brands starting approaching us. Our roster of clients got bigger and bigger. We realised we’d accidentally created a monster and We Make Awesome Sh was born.
+Tom Gibby and Syd Lawrence founded We Make Awesome Sh in . We met at Cardiff university through a shared love of all things gaming, geek and tech, and joked about starting our own company. Little did we know that cats would be the unexpected element that takes us there.
 
-Just before the summer of 2012, Adam Howard joined us. He's a shit hot developer who loves to ski in a Pikachu costume. He makes awesome shit.
+In early 2011, right after the release of the Instagram API, we built [Instac.at](http://instac.at "Cat Photos on Instagram"). It had just one purpose: to display a comical feed of live cat images on Instagram. 
 
-A couple of months later, Paul King joined us. This man tinkers like you wouldn't believe. It's an absolute pleasure to have him on the team. He also makes awesome shit.
+Over 30,000 people visited the site in just 24 hours. That number rocketed with coverage from mainstream tech press like The Next Web and Mashable. The success of Instac.at inspired us to create [Search Instagram](http://searchinstagram.com "Search Instagram"), the original Instagram search engine.
 
-Then, in March 2013, Rob Hampson jumped aboard. Rob is a shit hot designer. He makes our shit look awesome.
+In the following months, we helped many brands built Instagram into their marketing strategies. It soon evolved into [Awesome Wall](http://awesomewall.wemakeawesomesh.it “Awesome Wall”), which puts the service into any piece of digital technology you can think of. 
 
-We work wherever we want to work. Our bases are our homes. However Syd has been known to work from yachts in Cannes, Tom primarily works at Poke, Adam likes to check out the sights while he works, like Trafalgar Square, quite literally, Rob often nips over to Italy for a bit of impromptu sun filled hot-desking, and Paul is famous for working whenever and wherever he god damn likes.
+More brands starting approaching us. Our roster of clients got bigger. We were generating a torrent of traffic for major global brands, and realised we’d created a monster. We Make Awesome Sh was born.
 
-We Make Awesome Sh.it.
+<!--### How we work-->
 
-NB. For an artist impression of how We Make Awesome Sh may have started, <a href='http://cl.ly/image/143f2U1S3E22'>click here</a>.
+We work wherever we want to work, and are strong advocates of remote collaboration. Our office has been everything from a yacht in Cannes to a sun-soaked Italian villa. One of us is based in New York, while another lives in rural England. We work all hours, because we love what we do and enjoy hacking together from afar. This feels like the best job ever, because it is.
+
+The fact is, people out there in the real world like to experience something different. They like originality. Most of all, they like it when a digital experience surprises them with a hint of attitude, because it feels real and they can relate to it. 
+
+That's our secret: keeping it real. Having a blast. Making something fun for fun. Everyone wins, including you. 
+
+Now [let's make awesome shit together]("http://wemakeawesomesh.it/contact "Contact"). 
